@@ -1,0 +1,10 @@
+{"scripts":{"start":"cd venv/Scripts && activate.bat && cd.. && cd.. && (SET FLASK_APP=app.py || EXPORT FLASK_APP=app.py) && (SET FLASK_ENV=development || EXPORT FLASK_ENV=development) && flask run"},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
