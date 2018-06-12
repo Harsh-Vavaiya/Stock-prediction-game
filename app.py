@@ -73,7 +73,7 @@ def getStockData():
     mlData = mlData[:-dataLength]
     y = np.array(mlData['label'])
 
-    X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.0001)
+    X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.001)
 
     clf = LinearRegression()
     clf.fit(X_train, y_train)
