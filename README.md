@@ -33,6 +33,7 @@ Install the requirements
 `pip install -r requirements.txt`
 
 Now you can open up an additional terminal and start up a server for the backend on port 5000:
+
 `npm start`
 
 Now you are all set up!
