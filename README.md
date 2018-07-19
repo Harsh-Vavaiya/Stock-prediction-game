@@ -33,12 +33,7 @@ Install the requirements
 `pip install -r requirements.txt`
 
 Now you can open up an additional terminal and start up a server for the backend on port 5000:
-
-`export FLASK_APP=app.py`
-
-`export FLASK_ENV=development`
-
-`flask run`
+`npm start`
 
 Now you are all set up!
 
@@ -53,7 +48,7 @@ Now you are all set up!
 
 ## Authors
 
-Austin Tackaberry
+Harsh Vavaiya
 
 ## License
 
